@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 
 import { Link } from "react-router-dom";
-import Login from "../pages/Login";
-import Signup from "../pages/Signup";
+import Login from "./Login";
+import Signup from "./Signup";
 
 const Header = () => {
   const [loginPopup, setLoginPopup] = useState(false);
