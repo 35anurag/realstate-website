@@ -4,9 +4,9 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 const Signup = (props) => {
 
   return props.trigger ? (
-    <div className="min-h-[520px] fixed top-[70px]  left-[410px] flex items-center z-10">
-      <div className=" flex w-1/2 transform animate-slide-down">
-        <div className="w-[450px] h-[450px] mx-auto bg-gray-200 rounded shadow-lg">
+    <div className="min-h-[520px] fixed top-[70px] left-[410px] flex items-center z-10">
+      <div className=" flex w-1/2 transform animate-slide-down ml-[-23rem] lg:ml-[0rem]">
+        <div className="w-[450px] h-[450px] mx-auto bg-gray-200 rounded shadow-lg ">
           <button
             className="p-4 text-2xl text-blue-400"
             onClick={() => {
@@ -36,7 +36,7 @@ const Signup = (props) => {
             </button>
             <p className="text-sm py-3">
               <span className="text-gray-400">Do you have an account?</span>
-              <button className="text-blue-400">Log In</button>
+              <p className="text-blue-400">Log In</p>
             </p>
           </div>
         </div>

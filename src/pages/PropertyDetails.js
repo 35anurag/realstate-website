@@ -1,7 +1,7 @@
-import React, { useEffect } from "react";
+import React from "react";
 
 import { houseData } from "../components/data";
-import { useParams, Link } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 import { MdOutlineBedroomChild } from "react-icons/md";
 import { MdOutlineBathroom } from "react-icons/md";

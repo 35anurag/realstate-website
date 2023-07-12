@@ -8,7 +8,7 @@ const HouseContextProvider = ({ children }) => {
   const [houses, setHouses] = useState(houseData);
   const [location, setLocation] = useState("Location (any)");
   const [locations, setLocations] = useState([]);
-  const [property, setProperty] = useState("Property type (any)");
+  const [property, setProperty] = useState("Property (any)");
   const [properties, setProperties] = useState([]);
   const [price, setPrice] = useState("Price range (any)");
   const [prices, setPrices] = useState([]);

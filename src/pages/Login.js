@@ -3,10 +3,10 @@ import { AiOutlineCloseCircle } from "react-icons/ai";
 
 const Login = (props) => {
   return props.trigger ? (
-    <div className=" ">
+    <div className="">
       <div className="min-h-[520px] fixed top-[70px] left-[410px] flex items-center z-10">
-        <div className=" flex w-1/2 transform animate-slide-down">
-          <div className="w-[450px] h-[450px] mx-auto bg-gray-200 rounded shadow-lg">
+        <div className="flex w-1/2 transform animate-slide-down ml-[-23rem] lg:ml-[0rem]">
+          <div className="w-[450px] h-[450px] mx-auto bg-gray-200 rounded shadow-lg ">
             <button
               className="p-4 text-2xl text-blue-400"
               onClick={() => {
@@ -26,7 +26,7 @@ const Login = (props) => {
                   placeholder="Enter your email"
                 />
                 <input
-                  className="p-3 my-2 mx-[90px] rounded  text-black"
+                  className="p-3 my-2 mx-[90px] rounded text-black"
                   type="password"
                   placeholder="Enter your password"
                 />
@@ -36,16 +36,11 @@ const Login = (props) => {
               </button>
               <p className="text-sm py-3">
                 <span className="text-gray-400">Already created account?</span>
-                <button
+                <p
                   className="text-blue-400"
-                  // onClick={()=>{
-                  //   props.setTrigger(false)
-                  //   setSigninPopup(true)
-                  // }}
                 >
                   Sign In
-                </button>
-                {/* <Signup trigger={signinPopup} className="fixed"/> */}
+                </p>
               </p>
             </div>
           </div>

@@ -14,7 +14,7 @@ const Banner = () => {
           engage, and retain more.
         </p>
       </div>
-      <div className="">
+      <div className="flex justify-center">
         <img className="flex items-center object-fill h-[22rem] w-96 rounded-2xl" src={House} alt=''></img>
       </div>
     </div>
