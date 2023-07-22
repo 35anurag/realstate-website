@@ -1,6 +1,6 @@
 {
+  "homepage": "https://35anurag.github.io/realstate-website",
   "name": "realstate-app",
-  "homepage": "https://35anurag.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -10,7 +10,6 @@
     "@testing-library/user-event": "^13.5.0",
     "autoprefixer": "^10.4.14",
     "firebase": "^9.22.2",
-    "gh-pages": "^5.0.0",
     "postcss": "^8.4.21",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
@@ -46,6 +45,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^5.0.0",
     "tailwindcss": "^3.3.0"
   }
 }
