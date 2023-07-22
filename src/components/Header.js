@@ -9,22 +9,18 @@ const Header = () => {
   // const [signinPopup, setSigninPopup] = useState(false);
   
   return (
-    <header className="py-6 border-b mb-8 shadow">
+    <header className="py-4 pb-4 bg-[#2D499D] drop-shadow-xl text-white">
       <div className="container mx-auto flex justify-between">
-        <div className="container mx-auto font-bold text-lg">
+        <div className="container mx-auto font-bold text-lg ">
           <Link to="/">
             <button>Anurag.real</button>
           </Link>
         </div>
         <div className="flex items-center gap-6 justify-between">
-          <button
-            className="hover:text-violet-900 transition"
-            
-          >
+          <button className="font-semibold">
             Login
           </button>
-          <button
-            className="text-white rounded bg-blue-800 hover:bg-blue-900 px-3 py-1 pb-3">
+          <button className="font-semibold">
             Signup
           </button>
           {/* <Login trigger={loginPopup} setTrigger={setLoginPopup} className="fixed bg-transparent" />

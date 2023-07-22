@@ -17,7 +17,7 @@ const PropertyDropdown = () => {
     <Menu as="div" className="relative">
       <Menu.Button
         onClick={handleUpClick}
-        className="lg:px-4 py-3 mb-2 flex flex-row justify-content items-center gap-4 transition border-2"
+        className="lg:px-4 py-3 mb-2 flex flex-row justify-content items-center gap-4 transition"
       >
         <RiHome4Line className="text-blue-800" />
         <div className="flex flex-col items-start">

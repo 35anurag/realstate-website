@@ -12,7 +12,7 @@ const Search = () => {
   const { handleClick } = useContext(HouseContext);
 
   return (
-    <div className="px-[60px] max-w-[960px] mx-auto mt-6 flex flex-col lg:flex-row py-4 justify-between items-center lg:gap-x-2 lg:shadow-lg bg-gray-100">
+    <div className="px-[60px] max-w-[960px] mx-auto mt-6 flex flex-col lg:flex-row py-4 justify-between items-center lg:gap-x-2 lg:shadow-lg bg-white">
       <CountryDropdown />
       <PropertyDropdown />
       <PriceRangeDropdown />
