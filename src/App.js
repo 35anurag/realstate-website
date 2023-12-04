@@ -13,9 +13,11 @@ const App = () => {
   return (
     <div className='bg-white mx-auto max-w-[1440px]'>
       <Header />
-      <Routes basename="/my-app">
-        <Route path='/' element={<Home />} />
+      <Routes >
+      <Route path="/" element={<Home />}>
+        <Route index element={<Home />} />
         <Route path='/property/:id' element={<PropertyDetails />} />
+        </Route>
       </Routes> 
       <Footer />
     </div>

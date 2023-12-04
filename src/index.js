@@ -9,7 +9,7 @@ import HouseContextProvider from './components/HouseContext'
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <HouseContextProvider>
-  <Router basename="/">
+  <Router>
     <React.StrictMode>
       <App />
     </React.StrictMode>
